@@ -13,4 +13,14 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Application\Commands" />
+      <Folder Include="Application\Handlers" />
+      <Folder Include="Application\Queries" />
+      <Folder Include="Domain\Entities" />
+      <Folder Include="Infrastructure\Data" />
+      <Folder Include="Infrastructure\Repositories" />
+      <Folder Include="Ioc" />
+    </ItemGroup>
+
 </Project>
