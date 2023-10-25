@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lXryeXyHXdZ6VqaU6uuU4S83nwuGvlnmdyaXqv3gG/4cyBe2lU6N3JIPBhjxzYgWfP0+omh5MKPzdBDUgeggiQ==",
+  "dgSpecHash": "RMzNyjcinenuVGNCWd+kvwXKWU2ai2E7THFaqsCHOU6pym/lUoP0jXfJ8T266aClq8hXAYjyafixSYjaHGihWg==",
   "success": true,
-  "projectFilePath": "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/Product.Application.Tests.csproj",
+  "projectFilePath": "/Users/macbook/Projects/ProductService/Tests/Product.Domain.Tests/Product.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/macbook/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",

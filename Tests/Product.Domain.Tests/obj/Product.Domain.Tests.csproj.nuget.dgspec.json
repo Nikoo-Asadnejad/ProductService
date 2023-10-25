@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/Product.Application.Tests.csproj": {}
+    "/Users/macbook/Projects/ProductService/Tests/Product.Domain.Tests/Product.Domain.Tests.csproj": {}
   },
   "projects": {
-    "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/Product.Application.Tests.csproj": {
+    "/Users/macbook/Projects/ProductService/Tests/Product.Domain.Tests/Product.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/Product.Application.Tests.csproj",
-        "projectName": "Product.Application.Tests",
-        "projectPath": "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/Product.Application.Tests.csproj",
+        "projectUniqueName": "/Users/macbook/Projects/ProductService/Tests/Product.Domain.Tests/Product.Domain.Tests.csproj",
+        "projectName": "Product.Domain.Tests",
+        "projectPath": "/Users/macbook/Projects/ProductService/Tests/Product.Domain.Tests/Product.Domain.Tests.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/obj/",
+        "outputPath": "/Users/macbook/Projects/ProductService/Tests/Product.Domain.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.nuget/NuGet/NuGet.Config"
