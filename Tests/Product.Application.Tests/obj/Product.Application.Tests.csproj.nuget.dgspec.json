@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macbook/Projects/ProductService/Src/Product.Ioc/Product.Ioc.csproj": {}
+    "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/Product.Application.Tests.csproj": {}
   },
   "projects": {
-    "/Users/macbook/Projects/ProductService/Src/Product.Ioc/Product.Ioc.csproj": {
+    "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/Product.Application.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbook/Projects/ProductService/Src/Product.Ioc/Product.Ioc.csproj",
-        "projectName": "Product.Ioc",
-        "projectPath": "/Users/macbook/Projects/ProductService/Src/Product.Ioc/Product.Ioc.csproj",
+        "projectUniqueName": "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/Product.Application.Tests.csproj",
+        "projectName": "Product.Application.Tests",
+        "projectPath": "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/Product.Application.Tests.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Users/macbook/Projects/ProductService/Src/Product.Ioc/obj/",
+        "outputPath": "/Users/macbook/Projects/ProductService/Tests/Product.Application.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.nuget/NuGet/NuGet.Config"
@@ -37,12 +37,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.1.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

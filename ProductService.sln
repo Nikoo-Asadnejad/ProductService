@@ -2,15 +2,17 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{546DC7C4-A3AD-455E-B5E0-7001E9E8A301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.API", "..\Product.API\Product.API.csproj", "{ADF04135-B7A9-4195-A875-6AAD5788CCF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.API", "Src\Product.API\Product.API.csproj", "{ADF04135-B7A9-4195-A875-6AAD5788CCF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Application", "..\Product.Application\Product.Application.csproj", "{D4F937EA-8B75-4E0F-B2F9-D777E9E1AF32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Application", "Src\\Product.Application\Product.Application.csproj", "{D4F937EA-8B75-4E0F-B2F9-D777E9E1AF32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Domain", "..\Product.Domain\Product.Domain.csproj", "{4AD50C80-E6FE-4265-853B-1D5BDAFDE2AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Domain", "Src\\Product.Domain\Product.Domain.csproj", "{4AD50C80-E6FE-4265-853B-1D5BDAFDE2AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Infrastructure", "..\Product.Infrastructure\Product.Infrastructure.csproj", "{5A91E23A-05D6-427F-AEFF-524408AB293A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Infrastructure", "Src\\Product.Infrastructure\Product.Infrastructure.csproj", "{5A91E23A-05D6-427F-AEFF-524408AB293A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Ioc", "..\Product.Ioc\Product.Ioc.csproj", "{FC0A69F8-71B4-4D5A-A604-A464F76F2FFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Ioc", "Src\\Product.Ioc\Product.Ioc.csproj", "{FC0A69F8-71B4-4D5A-A604-A464F76F2FFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4C17081D-1843-41BB-9281-3DF6551E01B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

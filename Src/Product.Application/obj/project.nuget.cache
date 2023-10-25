@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "P0/wH5S4KT4ELGxvEp9QGLhQImvn4veYai8PDW0wbZB/7Xf9ZRdhDSfIGvLqFhgs2oSlBFGMyvZxpeReBbl2cg==",
+  "dgSpecHash": "dOjFLWHI6F9yGwMa4Fcb7kIkeWN16oW8Vgte7gAFoH06Ca6L0sY5QKAWKePsQAUwt5Nbht2mqx7L68gWMZooIw==",
   "success": true,
   "projectFilePath": "/Users/macbook/Projects/ProductService/Src/Product.Application/Product.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

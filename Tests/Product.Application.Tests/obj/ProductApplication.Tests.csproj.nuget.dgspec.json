@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macbook/Projects/ProductService/Src/ProductService/ProductService/ProductService.csproj": {}
+    "/Users/macbook/Projects/ProductService/Tests/ProductApplication.Tests/ProductApplication.Tests.csproj": {}
   },
   "projects": {
-    "/Users/macbook/Projects/ProductService/Src/ProductService/ProductService/ProductService.csproj": {
+    "/Users/macbook/Projects/ProductService/Tests/ProductApplication.Tests/ProductApplication.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbook/Projects/ProductService/Src/ProductService/ProductService/ProductService.csproj",
-        "projectName": "ProductService",
-        "projectPath": "/Users/macbook/Projects/ProductService/Src/ProductService/ProductService/ProductService.csproj",
+        "projectUniqueName": "/Users/macbook/Projects/ProductService/Tests/ProductApplication.Tests/ProductApplication.Tests.csproj",
+        "projectName": "ProductApplication.Tests",
+        "projectPath": "/Users/macbook/Projects/ProductService/Tests/ProductApplication.Tests/ProductApplication.Tests.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Users/macbook/Projects/ProductService/Src/ProductService/ProductService/obj/",
+        "outputPath": "/Users/macbook/Projects/ProductService/Tests/ProductApplication.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.nuget/NuGet/NuGet.Config"
@@ -49,9 +49,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
