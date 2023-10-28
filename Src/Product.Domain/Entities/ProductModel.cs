@@ -5,7 +5,6 @@ public sealed class ProductModel : BaseModel<long>
 
     public ProductModel(string title, int price ,long? categoryId = null, string? subTitle = null, string? description = null)
     {
-        base.Create();
         Title = title;
         SubTitle = subTitle;
         Description = description;

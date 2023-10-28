@@ -4,14 +4,12 @@ public sealed class CategoryModel : BaseModel<long>
 {
     public CategoryModel(string title , CategoryModel? subCategory = null)
     {
-        base.Create();
         this.Title = title;
         SubCategory = subCategory;
         SubCategoryId = subCategory?.Id;
     }
     public CategoryModel(string title , long? subCategoryId = null)
     {
-        base.Create();
         this.Title = title;
         SubCategoryId = subCategoryId;
     }
