@@ -23,7 +23,6 @@ public abstract class BaseModel<T>
         ValidateIp(ip);
         this.CreateIp = ip;
     }
-    
     public virtual void Update(string? ip = null, long? updatedBy = null)
     {
         this.UpdateDate = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
@@ -31,7 +30,6 @@ public abstract class BaseModel<T>
         ValidateIp(ip);
         this.UpdateIp = ip;
     }
-    
     public virtual void Delete(string? ip = null, long? deletedBy = null)
     {
         this.DeleteDate = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
@@ -39,7 +37,6 @@ public abstract class BaseModel<T>
         ValidateIp(ip);
         this.DeleteIp = ip;
     }
-
     void ValidateIp(string? ip)
     {
         if(string.IsNullOrWhiteSpace(ip))
