@@ -2,18 +2,27 @@ namespace Product.Domain.Entities;
 
 public sealed class CategoryModel : BaseModel<long>
 {
-    public CategoryModel(string title , ICollection<CategoryModel>? subCategories = null)
+    public CategoryModel(string title , CategoryModel? subCategory = null)
     {
         base.Create();
         this.Title = title;
-        SubCategories = subCategories ?? new List<CategoryModel>();
+        SubCategory = subCategory;
+        SubCategoryId = subCategory?.Id;
+    }
+    public CategoryModel(string title , long? subCategoryId = null)
+    {
+        base.Create();
+        this.Title = title;
+        SubCategoryId = subCategoryId;
     }
     public string Title { get; private set; }
-    public ICollection<CategoryModel> SubCategories { get; private set; }
+    public long? SubCategoryId { get; private set; }
+    public CategoryModel SubCategory{ get; private set; }
 
-    public void Update(CategoryModel newCategory)
+    public void Update(CategoryModel newCategory , long? subCategoryId = null)
     {
         base.Update(newCategory.CreateIp);
         this.Title = newCategory.Title;
+        this.SubCategoryId = subCategoryId;
     }
 }
