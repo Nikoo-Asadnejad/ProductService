@@ -1,6 +1,7 @@
 using Product.Domain.Exceptions;
+using Product.Domain.ValueObjects;
 
-namespace Product.Domain.ValueObjects;
+namespace Product.Domain;
 
 public class Price : ValueObject
 {

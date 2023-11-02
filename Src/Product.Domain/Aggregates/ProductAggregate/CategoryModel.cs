@@ -1,6 +1,6 @@
 namespace Product.Domain.Entities;
 
-public sealed class CategoryModel : BaseModel<long>
+public sealed class CategoryModel : BaseEntity
 {
     public CategoryModel(string title , CategoryModel? subCategory = null)
     {
