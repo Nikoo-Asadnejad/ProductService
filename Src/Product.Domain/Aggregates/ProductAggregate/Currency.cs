@@ -1,4 +1,6 @@
-namespace Product.Domain.ValueObjects;
+using Product.Domain.Base;
+
+namespace Product.Domain.Aggregates.ProductAggregate;
 
 public class Currency : ValueObject
 {

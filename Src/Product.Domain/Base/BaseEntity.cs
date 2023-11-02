@@ -1,7 +1,4 @@
-using Product.Domain.Entities;
-using Product.Domain.ValueObjects;
-
-namespace Product.Domain.Entities;
+namespace Product.Domain.Base;
 
 public abstract class BaseEntity
 {
@@ -90,7 +87,7 @@ public abstract class BaseEntity
 
     public override bool Equals(object obj)
     {
-        if (!(obj is BaseEntity))
+        if (obj is not BaseEntity)
             return false;
 
         if (Object.ReferenceEquals(this, obj))

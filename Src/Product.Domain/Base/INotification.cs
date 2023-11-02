@@ -1,4 +1,4 @@
-namespace Product.Domain.Entities;
+namespace Product.Domain.Base;
 
 public interface INotification
 {

@@ -1,8 +1,8 @@
-using System.Security;
 using Product.Domain.Constants.Messages;
 using Product.Domain.Exceptions;
+using Product.Domain.Exceptions.Genrals;
 
-namespace Product.Domain.ValueObjects;
+namespace Product.Domain.Base;
 
 public class Ip : ValueObject
 {

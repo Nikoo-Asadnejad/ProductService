@@ -1,4 +1,4 @@
-namespace Product.Domain.ValueObjects;
+namespace Product.Domain.Base;
 
 public abstract class ValueObject : IEquatable<ValueObject>
 {
