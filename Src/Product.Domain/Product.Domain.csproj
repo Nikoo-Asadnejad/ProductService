@@ -9,7 +9,6 @@
     <ItemGroup>
       <Folder Include="Aggregates\Category\Exceptions" />
       <Folder Include="Aggregates\Category\ValueObjects" />
-      <Folder Include="Aggregates\Product\Entities" />
       <Folder Include="Aggregates\Product\Exceptions" />
     </ItemGroup>
 
