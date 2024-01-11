@@ -22,7 +22,7 @@ public class Ip : ValueObject
     {
         if (string.IsNullOrWhiteSpace(value))
         {
-            throw new DomainValidationException(ExceptionMessage.IpIsMandatry);
+            throw new DomainValidationException(ExceptionMessage.IpIsMandatory);
         }
 
         if (value.Length > Lenght || value.Length < Lenght)
