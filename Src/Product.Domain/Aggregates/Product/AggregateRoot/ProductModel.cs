@@ -3,7 +3,7 @@ using Product.Domain.Base;
 
 namespace Product.Domain.Aggregates.ProductAggregate;
 
-public sealed class ProductModel : BaseEntity
+public sealed class ProductModel : BaseEntity , IAggregateRoot
 {
     public ProductModel(string title, int price, long? categoryId = null, string? subTitle = null,
         string? description = null)
