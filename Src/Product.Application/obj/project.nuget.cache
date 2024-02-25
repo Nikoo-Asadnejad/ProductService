@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dOjFLWHI6F9yGwMa4Fcb7kIkeWN16oW8Vgte7gAFoH06Ca6L0sY5QKAWKePsQAUwt5Nbht2mqx7L68gWMZooIw==",
+  "dgSpecHash": "FJnjtZBeNcJKOQh06yKLmPe9Qf2dIT/hZxgh/hl2NOc+Pw17D1ZN0ea4YHyI++/BBS87ysV9mmsyUMLDJStPOQ==",
   "success": true,
   "projectFilePath": "/Users/macbook/Projects/ProductService/Src/Product.Application/Product.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
