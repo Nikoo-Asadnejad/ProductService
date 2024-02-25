@@ -7,13 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Commands" />
-      <Folder Include="Handlers" />
-      <Folder Include="Queries" />
+      <PackageReference Include="MediatR" Version="12.1.1" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="MediatR" Version="12.1.1" />
+      <Folder Include="Category\Commands" />
+      <Folder Include="Category\Queries" />
+      <Folder Include="Product\Queries" />
     </ItemGroup>
 
 </Project>
