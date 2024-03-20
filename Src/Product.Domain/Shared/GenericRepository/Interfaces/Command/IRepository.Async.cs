@@ -3,7 +3,7 @@ using Product.Domain.Shared.Base;
 
 namespace Product.Domain.Shared.GenericRepository.GenericRepository.Command;
 
-public partial interface IRepository<T> where T : BaseEntity
+public partial interface IRepository<T> where T : IAggregateRoot
 {
 
     Task AddAsync(T model);

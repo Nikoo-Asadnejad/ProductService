@@ -1,9 +1,10 @@
 using System.Linq.Expressions;
+using Product.Domain.Shared.Base;
 using Product.Domain.Shared.GenericRepository.Enums;
 
 namespace Product.Domain.Shared.GenericRepository.GenericRepository.Query;
 
-public partial interface IQueryGenericRepository<T>
+public partial interface IQueryGenericRepository<T> where T : BaseEntity
 {
     IQueryable<T> GetQueryable();
     T Find(long id);

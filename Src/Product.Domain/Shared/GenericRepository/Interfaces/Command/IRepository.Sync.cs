@@ -1,6 +1,8 @@
+using Product.Domain.Shared.Base;
+
 namespace Product.Domain.Shared.GenericRepository.GenericRepository.Command;
 
-public partial interface IRepository<T>
+public partial interface IRepository<T> where T : IAggregateRoot
 {
     void RollbackTransaction();
     void CommitTransaction();

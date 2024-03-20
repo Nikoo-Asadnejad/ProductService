@@ -1,12 +1,13 @@
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
+using Product.Domain.Shared.Base;
 using Product.Domain.Shared.GenericRepository.Enums;
 using Product.Domain.Shared.GenericRepository.GenericRepository.Query;
 using Product.Infrastructure.Data.Context;
 
 namespace Product.Infrastructure.Data.Repository.GenericRepository.Query;
 
-public sealed partial class QueryGenericRepository<T> : IQueryGenericRepository<T>
+public sealed partial class QueryGenericRepository<T> : IQueryGenericRepository<T> where T : BaseEntity
 {
     private readonly QueryContext _context;
     private readonly DbSet<T> _model;

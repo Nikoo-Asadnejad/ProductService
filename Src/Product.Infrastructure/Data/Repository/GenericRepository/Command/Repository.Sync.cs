@@ -4,7 +4,7 @@ using Product.Domain.Shared.Base;
 
 namespace Product.Infrastructure.Data.Repository.GenericRepository.Command;
 
-public sealed partial class Repository<T> where T : BaseEntity
+public sealed partial class Repository<T> where T : BaseEntity , IAggregateRoot
 {
     public IDbContextTransaction BeginTransaction()
     {

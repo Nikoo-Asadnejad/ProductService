@@ -6,7 +6,7 @@ using Product.Infrastructure.Data.Context;
 
 namespace Product.Infrastructure.Data.Repository.GenericRepository.Command;
 
-public sealed partial class Repository<T> : IRepository<T> where T : BaseEntity
+public sealed partial class Repository<T> : IRepository<T> where T : BaseEntity , IAggregateRoot 
 {
 
   private readonly CommandContext _context;
