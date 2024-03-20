@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 using Product.Domain.Shared.Base;
 using Product.Domain.Shared.Events;
 
-namespace Product.Infrastructure.Interceptor;
+namespace Product.Infrastructure.Data.Interceptors;
 
 public sealed class PublishDomainEventsInterceptor : SaveChangesInterceptor
 {

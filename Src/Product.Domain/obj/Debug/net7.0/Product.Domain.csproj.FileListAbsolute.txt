@@ -1,0 +1,12 @@
+/Users/macbook/Projects/ProductService/Src/Product.Domain/bin/Debug/net7.0/Product.Domain.deps.json
+/Users/macbook/Projects/ProductService/Src/Product.Domain/bin/Debug/net7.0/Product.Domain.dll
+/Users/macbook/Projects/ProductService/Src/Product.Domain/bin/Debug/net7.0/Product.Domain.pdb
+/Users/macbook/Projects/ProductService/Src/Product.Domain/obj/Debug/net7.0/Product.Domain.csproj.AssemblyReference.cache
+/Users/macbook/Projects/ProductService/Src/Product.Domain/obj/Debug/net7.0/Product.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Projects/ProductService/Src/Product.Domain/obj/Debug/net7.0/Product.Domain.AssemblyInfoInputs.cache
+/Users/macbook/Projects/ProductService/Src/Product.Domain/obj/Debug/net7.0/Product.Domain.AssemblyInfo.cs
+/Users/macbook/Projects/ProductService/Src/Product.Domain/obj/Debug/net7.0/Product.Domain.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/ProductService/Src/Product.Domain/obj/Debug/net7.0/Product.Domain.dll
+/Users/macbook/Projects/ProductService/Src/Product.Domain/obj/Debug/net7.0/refint/Product.Domain.dll
+/Users/macbook/Projects/ProductService/Src/Product.Domain/obj/Debug/net7.0/Product.Domain.pdb
+/Users/macbook/Projects/ProductService/Src/Product.Domain/obj/Debug/net7.0/ref/Product.Domain.dll

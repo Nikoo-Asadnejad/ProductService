@@ -25,7 +25,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/macbook/Projects/ProductService/Src/Product.Domain/Product.Domain.csproj": {
+                "projectPath": "/Users/macbook/Projects/ProductService/Src/Product.Domain/Product.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

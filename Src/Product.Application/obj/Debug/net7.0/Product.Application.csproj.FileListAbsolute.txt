@@ -1,0 +1,15 @@
+/Users/macbook/Projects/ProductService/Src/Product.Application/bin/Debug/net7.0/Product.Application.deps.json
+/Users/macbook/Projects/ProductService/Src/Product.Application/bin/Debug/net7.0/Product.Application.dll
+/Users/macbook/Projects/ProductService/Src/Product.Application/bin/Debug/net7.0/Product.Application.pdb
+/Users/macbook/Projects/ProductService/Src/Product.Application/bin/Debug/net7.0/Product.Domain.dll
+/Users/macbook/Projects/ProductService/Src/Product.Application/bin/Debug/net7.0/Product.Domain.pdb
+/Users/macbook/Projects/ProductService/Src/Product.Application/obj/Debug/net7.0/Product.Application.csproj.AssemblyReference.cache
+/Users/macbook/Projects/ProductService/Src/Product.Application/obj/Debug/net7.0/Product.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Projects/ProductService/Src/Product.Application/obj/Debug/net7.0/Product.Application.AssemblyInfoInputs.cache
+/Users/macbook/Projects/ProductService/Src/Product.Application/obj/Debug/net7.0/Product.Application.AssemblyInfo.cs
+/Users/macbook/Projects/ProductService/Src/Product.Application/obj/Debug/net7.0/Product.Application.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/ProductService/Src/Product.Application/obj/Debug/net7.0/Product.Application.csproj.CopyComplete
+/Users/macbook/Projects/ProductService/Src/Product.Application/obj/Debug/net7.0/Product.Application.dll
+/Users/macbook/Projects/ProductService/Src/Product.Application/obj/Debug/net7.0/refint/Product.Application.dll
+/Users/macbook/Projects/ProductService/Src/Product.Application/obj/Debug/net7.0/Product.Application.pdb
+/Users/macbook/Projects/ProductService/Src/Product.Application/obj/Debug/net7.0/ref/Product.Application.dll

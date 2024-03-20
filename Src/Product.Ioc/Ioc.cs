@@ -1,9 +1,8 @@
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
-using Product.Application.Shared;
 using Product.Application.Shared.Behaviors;
+using Product.Infrastructure.Data.Interceptors;
 using Product.Infrastructure.EventBus;
-using Product.Infrastructure.Interceptor;
 
 namespace Product.Ioc;
 

@@ -273,6 +273,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Product.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Product.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product.Domain.dll": {}
+        }
       }
     }
   },
@@ -815,13 +825,19 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Product.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Product.Domain/Product.Domain.csproj",
+      "msbuildProject": "../Product.Domain/Product.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "FluentValidation >= 11.9.0",
       "MediatR >= 12.1.1",
-      "Microsoft.Extensions.Hosting.Abstractions >= 9.0.0-preview.2.24128.5"
+      "Microsoft.Extensions.Hosting.Abstractions >= 9.0.0-preview.2.24128.5",
+      "Product.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -848,7 +864,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/macbook/Projects/ProductService/Src/Product.Domain/Product.Domain.csproj": {
+              "projectPath": "/Users/macbook/Projects/ProductService/Src/Product.Domain/Product.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

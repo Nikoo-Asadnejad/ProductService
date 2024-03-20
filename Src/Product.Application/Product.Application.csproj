@@ -17,6 +17,11 @@
       <Folder Include="Category\Queries" />
       <Folder Include="Product\Queries" />
       <Folder Include="Shared\Exceptions\" />
+      <Folder Include="Shared\Interfaces\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Product.Domain\Product.Domain.csproj" />
     </ItemGroup>
 
 </Project>

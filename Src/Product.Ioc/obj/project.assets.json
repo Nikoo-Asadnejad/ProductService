@@ -408,7 +408,8 @@
         "dependencies": {
           "FluentValidation": "11.9.0",
           "MediatR": "12.1.1",
-          "Microsoft.Extensions.Hosting.Abstractions": "9.0.0-preview.2.24128.5"
+          "Microsoft.Extensions.Hosting.Abstractions": "9.0.0-preview.2.24128.5",
+          "Product.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Product.Application.dll": {}
