@@ -15,6 +15,7 @@
       <Folder Include="Category\Commands" />
       <Folder Include="Category\Queries" />
       <Folder Include="Product\Queries" />
+      <Folder Include="Shared\Exceptions\" />
     </ItemGroup>
 
 </Project>
