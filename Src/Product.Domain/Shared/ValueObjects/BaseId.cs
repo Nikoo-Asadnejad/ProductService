@@ -1,4 +1,6 @@
-namespace Product.Domain.Base;
+using Product.Domain.Shared.Base;
+
+namespace Product.Domain.Shared.ValueObjects;
 
 public class BaseId<T> : ValueObject
 {

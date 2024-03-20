@@ -45,6 +45,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.1.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.5, )"
             }
           },
           "imports": [

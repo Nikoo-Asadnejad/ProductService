@@ -1,6 +1,8 @@
-namespace Product.Domain.Aggregates.ProductAggregate;
+using Product.Domain.Shared.Base;
 
-public class CommenterUser 
+namespace Product.Domain.Aggregates.Product.Entities;
+
+public class CommenterUser  : BaseEntity
 {
     
 }

@@ -1,6 +1,6 @@
-using Product.Domain.Base;
+using Product.Domain.Shared.Base;
 
-namespace Product.Domain.Aggregates.ProductAggregate;
+namespace Product.Domain.Aggregates.Category.AggregateRoot;
 
 public sealed class CategoryModel : BaseEntity
 {

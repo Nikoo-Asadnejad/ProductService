@@ -1,15 +1,17 @@
 using Product.Domain.Aggregates.Product.Entities;
-using Product.Domain.Base;
+using Product.Domain.Aggregates.Product.ValueObjects;
+using Product.Domain.Shared.Base;
+using Product.Domain.Shared.ValueObjects;
 
-namespace Product.Domain.Aggregates.ProductAggregate;
+namespace Product.Domain.Aggregates.Product.AggregateRoot;
 
 public sealed class ProductModel : BaseEntity, IAggregateRoot
 {
     public ProductModel(string title,
         Price price,
-        string subTitle = default,
-        string description = default,
-        CategoryId categoryId = default)
+        CategoryId categoryId,
+        string? subTitle = null,
+        string? description = null)
     {
         Title = title;
         SubTitle = subTitle;

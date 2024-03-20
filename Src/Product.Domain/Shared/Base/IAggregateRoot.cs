@@ -1,4 +1,4 @@
-namespace Product.Domain.Base;
+namespace Product.Domain.Shared.Base;
 
 public interface IAggregateRoot
 {

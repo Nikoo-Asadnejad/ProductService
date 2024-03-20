@@ -1,12 +1,10 @@
-using System.ComponentModel.DataAnnotations;
-using System.Net;
 using FluentValidation;
 using FluentValidation.Results;
 using MediatR;
 using ValidationException = FluentValidation.ValidationException;
 using ValidationResult = FluentValidation.Results.ValidationResult;
 
-namespace Product.Application.Shared;
+namespace Product.Application.Shared.Behaviors;
 
 public sealed class ValidationBehavior<TRequest,TResponse>
                   : IPipelineBehavior<TRequest , TResponse> where TRequest : IRequest

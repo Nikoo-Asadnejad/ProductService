@@ -1,7 +1,7 @@
 using FluentValidation;
 using MediatR;
 
-namespace Product.Application.Product.Commands;
+namespace Product.Application.Product.Commands.CreateProduct;
 
 public sealed class CreateProductCommandHandler : IRequestHandler<CreateProductCommand>
 {

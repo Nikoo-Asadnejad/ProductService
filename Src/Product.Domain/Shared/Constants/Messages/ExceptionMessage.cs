@@ -1,4 +1,4 @@
-namespace Product.Domain.Constants.Messages;
+namespace Product.Domain.Shared.Constants.Messages;
 
 public struct ExceptionMessage
 {

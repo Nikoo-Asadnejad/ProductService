@@ -1,6 +1,6 @@
-using Product.Domain.Constants.Messages;
+using Product.Domain.Shared.Constants.Messages;
 
-namespace Product.Domain.Exceptions.Genrals;
+namespace Product.Domain.Shared.Exceptions;
 
 public sealed class InvalidIpException : DomainValidationException
 {

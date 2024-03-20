@@ -1,4 +1,4 @@
-namespace Product.Domain.Base;
+namespace Product.Domain.Shared.ValueObjects;
 
 public class CategoryId : BaseId<int>
 {

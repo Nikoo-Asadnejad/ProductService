@@ -1,4 +1,4 @@
-namespace Product.Domain.Exceptions;
+namespace Product.Domain.Shared.Exceptions;
 
 public class DomainValidationException : Exception
 {

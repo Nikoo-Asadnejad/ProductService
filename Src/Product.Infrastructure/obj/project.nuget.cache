@@ -1,8 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "roV4w8k7VzVPdGXGYhmZMCoWYnaWbFaGIok8j6t2e/eEr8CcFfxraWpUsoTnKjBgKgCxpCkKOuH3ENIgFALFsg==",
+  "dgSpecHash": "whsr3bYLw953mstA3Dwvm42/jc7gi7gbEsLYA/f9Hzj4wjS0A3hjtwAX+bO7UqG09XrSG4mCqgvD4PVPFcs+EA==",
   "success": true,
   "projectFilePath": "/Users/macbook/Projects/ProductService/Src/Product.Infrastructure/Product.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.entityframeworkcore/7.0.17/microsoft.entityframeworkcore.7.0.17.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.17/microsoft.entityframeworkcore.abstractions.7.0.17.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.17/microsoft.entityframeworkcore.analyzers.7.0.17.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.hosting.abstractions/7.0.0/microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

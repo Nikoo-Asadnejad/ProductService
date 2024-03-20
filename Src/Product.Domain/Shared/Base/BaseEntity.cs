@@ -1,4 +1,7 @@
-namespace Product.Domain.Base;
+using Product.Domain.Shared.Events;
+using Product.Domain.Shared.ValueObjects;
+
+namespace Product.Domain.Shared.Base;
 
 public abstract class BaseEntity
 {
@@ -15,8 +18,8 @@ public abstract class BaseEntity
             _Id = value;
         }
     }
-    private List<INotification> _domainEvents;
-    public IReadOnlyCollection<INotification> DomainEvents => _domainEvents?.AsReadOnly();
+    private List<IDomainEvent> _domainEvents;
+    public IReadOnlyCollection<IDomainEvent> DomainEvents => _domainEvents?.AsReadOnly();
     public long CreateDate { get; private set; }
     public long? CreatedBy { get; private set; }
     public long? UpdateDate { get; private set; }
@@ -64,13 +67,13 @@ public abstract class BaseEntity
         this.DeleteIp = ip;
     }
 
-    public void AddDomainEvent(INotification eventItem)
+    public void AddDomainEvent(IDomainEvent eventItem)
     {
-        _domainEvents = _domainEvents ?? new List<INotification>();
+        _domainEvents = _domainEvents ?? new ();
         _domainEvents.Add(eventItem);
     }
 
-    public void RemoveDomainEvent(INotification eventItem)
+    public void RemoveDomainEvent(IDomainEvent eventItem)
     {
         _domainEvents?.Remove(eventItem);
     }

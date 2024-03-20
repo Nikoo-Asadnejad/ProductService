@@ -1,4 +1,4 @@
-using Product.Domain.Base;
+using Product.Domain.Shared.Base;
 
 namespace Product.Domain.Aggregates.Product.Entities;
 

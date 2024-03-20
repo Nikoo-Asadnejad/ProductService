@@ -1,13 +1,32 @@
 {
   "version": 2,
-  "dgSpecHash": "NmURCES4T3M2W1t9afleLjXkbd60Odax0i7bGbeXfcBDlRiQa7cP4USCNfup8HsPtt6zefdF93aRm9H+JzJoXA==",
+  "dgSpecHash": "LzBPEfKBcdx94bPGMiQDfEw3qFhxj/OMXEciFoezwlgecAJ8+i+nvBjJN/QJR4aqu2NqPDUCrARu5LJa7xQwDA==",
   "success": true,
   "projectFilePath": "/Users/macbook/Projects/ProductService/Src/Product.Ioc/Product.Ioc.csproj",
   "expectedPackageFiles": [
     "/Users/macbook/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/Users/macbook/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "/Users/macbook/.nuget/packages/microsoft.entityframeworkcore/7.0.17/microsoft.entityframeworkcore.7.0.17.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.17/microsoft.entityframeworkcore.abstractions.7.0.17.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.17/microsoft.entityframeworkcore.analyzers.7.0.17.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0-preview.2.24128.5/microsoft.extensions.configuration.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.2.24128.5/microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.diagnostics.abstractions/9.0.0-preview.2.24128.5/microsoft.extensions.diagnostics.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.0-preview.2.24128.5/microsoft.extensions.fileproviders.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.hosting.abstractions/9.0.0-preview.2.24128.5/microsoft.extensions.hosting.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0-preview.2.24128.5/microsoft.extensions.logging.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.options/9.0.0-preview.2.24128.5/microsoft.extensions.options.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.extensions.primitives/9.0.0-preview.2.24128.5/microsoft.extensions.primitives.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/system.diagnostics.diagnosticsource/9.0.0-preview.2.24128.5/system.diagnostics.diagnosticsource.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

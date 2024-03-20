@@ -1,8 +1,7 @@
 using Product.Domain.Aggregates.Product.Exceptions;
-using Product.Domain.Base;
-using Product.Domain.Exceptions;
+using Product.Domain.Shared.Base;
 
-namespace Product.Domain.Aggregates.ProductAggregate;
+namespace Product.Domain.Aggregates.Product.ValueObjects;
 
 public class Price : ValueObject
 {

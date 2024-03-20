@@ -1,4 +1,4 @@
-using Product.Domain.Aggregates.ProductAggregate;
+using Product.Domain.Aggregates.Product.AggregateRoot;
 
 namespace Product.Domain.Aggregates.Product.Services;
 
