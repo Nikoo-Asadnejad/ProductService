@@ -11,9 +11,9 @@ public static class Ioc
   public static void InjectServices(this IServiceCollection services , Assembly assembly)
   {
     services.AddSingleton<InMemoryMessageQueue>();
-    services.AddSingleton<IEventBus, EventBus>();
+    services.AddSingleton<IInternalEventBus, InternalEventBus>();
     services.AddSingleton<PublishDomainEventsInterceptor>();
-    services.AddHostedService<IntegrationEventProcessor>();
+    services.AddHostedService<InternalEventProcessor>();
     services.AddMediatR(config =>
     {
       config.RegisterServicesFromAssembly(assembly);

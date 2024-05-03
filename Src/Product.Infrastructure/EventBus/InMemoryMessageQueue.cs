@@ -4,8 +4,8 @@ namespace Product.Infrastructure.EventBus;
 
 public sealed class InMemoryMessageQueue
 {
-    public readonly Channel<IIntegrationEvent> _channel = Channel.CreateUnbounded<IIntegrationEvent>();
+    public readonly Channel<IInternalEvent> _channel = Channel.CreateUnbounded<IInternalEvent>();
 
-    public  ChannelReader<IIntegrationEvent> Reader => _channel.Reader;
-    public  ChannelWriter<IIntegrationEvent> Writer => _channel.Writer;
+    public  ChannelReader<IInternalEvent> Reader => _channel.Reader;
+    public  ChannelWriter<IInternalEvent> Writer => _channel.Writer;
 }

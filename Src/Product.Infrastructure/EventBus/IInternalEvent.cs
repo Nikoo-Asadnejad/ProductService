@@ -2,7 +2,7 @@ using MediatR;
 
 namespace Product.Infrastructure.EventBus;
 
-public interface IIntegrationEvent : INotification
+public interface IInternalEvent : INotification
 {
     
 }
