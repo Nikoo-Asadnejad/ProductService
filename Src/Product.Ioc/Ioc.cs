@@ -1,5 +1,6 @@
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
+using Product.Application.Product.Services;
 using Product.Application.Shared.Behaviors;
 using Product.Infrastructure.Data.Interceptors;
 using Product.Infrastructure.EventBus;
@@ -10,6 +11,7 @@ public static class Ioc
 {
   public static void InjectServices(this IServiceCollection services , Assembly assembly)
   {
+    services.AddScoped<ISearchService, SearchService>();
     services.AddSingleton<InMemoryMessageQueue>();
     services.AddSingleton<IInternalEventBus, InternalEventBus>();
     services.AddSingleton<PublishDomainEventsInterceptor>();
