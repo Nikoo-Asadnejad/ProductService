@@ -1,6 +1,6 @@
 using Product.Domain.Shared.Base;
 
-namespace Product.Domain.Shared.Entity;
+namespace Product.Domain.Aggregates.Shared.User.AggregateRoot;
 
 public class UserModel : BaseEntity
 {
