@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using Product.Domain.Shared.GenericRepository.UnitOfWork;
+using Product.Domain.Shared.GenericRepository.Interfaces;
 
 namespace Product.Infrastructure.Data.Repository.UnitOfWork;
 

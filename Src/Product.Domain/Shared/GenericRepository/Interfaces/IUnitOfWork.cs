@@ -1,4 +1,4 @@
-namespace Product.Domain.Shared.GenericRepository.UnitOfWork;
+namespace Product.Domain.Shared.GenericRepository.Interfaces;
 
 public interface IUnitOfWork 
 { 

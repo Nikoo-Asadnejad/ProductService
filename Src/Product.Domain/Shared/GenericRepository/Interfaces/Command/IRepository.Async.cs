@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
 using Product.Domain.Shared.Base;
 
-namespace Product.Domain.Shared.GenericRepository.GenericRepository.Command;
+namespace Product.Domain.Shared.GenericRepository.Interfaces.Command;
 
 public partial interface IRepository<T> where T : IAggregateRoot
 {

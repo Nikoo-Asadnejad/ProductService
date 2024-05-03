@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Product.Domain.Shared.Base;
-using Product.Domain.Shared.GenericRepository.GenericRepository.Command;
+using Product.Domain.Shared.GenericRepository.Interfaces.Command;
 using Product.Infrastructure.Data.Context;
 
 namespace Product.Infrastructure.Data.Repository.GenericRepository.Command;

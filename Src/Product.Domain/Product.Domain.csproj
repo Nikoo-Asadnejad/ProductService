@@ -9,6 +9,7 @@
     <ItemGroup>
       <Folder Include="Aggregates\Category\Exceptions" />
       <Folder Include="Aggregates\Category\ValueObjects" />
+      <Folder Include="Aggregates\Shared\ChangeHistory\" />
     </ItemGroup>
 
 </Project>

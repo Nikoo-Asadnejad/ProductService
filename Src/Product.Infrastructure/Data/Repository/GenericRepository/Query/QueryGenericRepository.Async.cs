@@ -2,7 +2,7 @@ using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Product.Domain.Shared.Base;
 using Product.Domain.Shared.GenericRepository.Enums;
-using Product.Domain.Shared.GenericRepository.GenericRepository.Query;
+using Product.Domain.Shared.GenericRepository.Interfaces.Query;
 using Product.Infrastructure.Data.Context;
 
 namespace Product.Infrastructure.Data.Repository.GenericRepository.Query;
