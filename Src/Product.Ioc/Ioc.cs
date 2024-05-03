@@ -18,6 +18,7 @@ public static class Ioc
     {
       config.RegisterServicesFromAssembly(assembly);
       config.AddOpenBehavior(typeof(ValidationBehavior<,>));
+      config.AddBehavior(typeof(LoggingBehavior<,>));
     });
   }
 }
