@@ -15,7 +15,6 @@
     <ItemGroup>
       <Folder Include="Category\Commands" />
       <Folder Include="Category\Queries" />
-      <Folder Include="Product\Queries" />
       <Folder Include="Shared\Exceptions\" />
       <Folder Include="Shared\Interfaces\" />
     </ItemGroup>
