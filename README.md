@@ -4,4 +4,5 @@ Sample CQRS and DDD project :
 * Fluent Validations are implement.
 * An Internal Message Queue implemented using .net channels.
 * Domain Event Handlers are implement.
+* CQRS Pattern is implement using MediatR.
 
