@@ -1,5 +1,5 @@
 # ProductService
-Sample CQRS and DDD project :
+Sample DDD, CQRS and Clean Architecture project :
 </br>
 * Fluent Validations are implement.
 * An Internal Message Queue implemented using .net channels.
