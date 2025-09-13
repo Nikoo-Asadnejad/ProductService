@@ -11,6 +11,8 @@ public static class Ioc
 {
   public static void InjectServices(this IServiceCollection services , Assembly assembly)
   {
+    builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
+
     services.AddScoped<ISearchService, SearchService>();
     services.AddSingleton<InMemoryMessageQueue>();
     services.AddSingleton<IInternalEventBus, InternalEventBus>();
